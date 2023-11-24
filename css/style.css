@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Berkshire+Swash&family=DM+Serif+Display&family=Kanit:wght@200&family=Krub:wght@400;700&family=League+Spartan:wght@800&family=Lusitana:wght@400;700&family=Staatliches&display=swap');
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*globales*/
+
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Here start style for page*/
+.header{
+    background-image: url(../images/17332616_347506552311176_505941478111969280_a-PhotoRoom.png-PhotoRoom.png);
+}
