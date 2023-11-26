@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {   
       fontFamily : {
-      'Roboto' : ['Roboto','sans-serif']
+      'Roboto' : ['Roboto','sans-serif'],
+      'body' :   ['Roboto','sans-serif']
+      },
+      colors :{
+        'pepito' : '#012571'
       }
     },
   },
