@@ -37,13 +37,23 @@
             <h1 class=" | text-[6rem] | font-extrabold | text-[#012571]">Academia San Ignacio</h1>
             <p class="text-[2rem]">¿Te quieres graduar pero tú mayor enemigo es la Tesis? No te preocupes, acá en Academia San ignacio, nos ocupamos de eso, mientras tú solo te preocupas por tu discurso</p>
                 <!-- <a href="" class=" block | w-[20rem] | h-[50px] bg-blue-500 hover:bg-blue-700 text-white font-bold | text-[2rem] | py-2 px-4 | rounded-full | text-center ">Boton</a> -->
-                <button class="btn">Contacto</button>
+                <button class="btn"><a href="#" class=" btn__contacto">Contacto</a></button>
         </div>
         <div>
             <img src="../images/Graduado.webp" alt="Graduado" class="w-[90rem] | rounded-lg">
         </div>
-        
+        <!-- Diseño de la modal de contacto -->
+        <div class="modal">
+            <div class="modal__contacto | h-auto w-90% | md:w-50% md:rounded-xl | md:p-4 | md:h-[45rem] | w-1/2 bg-gradient-to-t from-cyan-500 to-blue-500 border-8 | border-white">
+                <button class="modal__close | place-content-center | cursor-pointer"><img src="../images/cerrar.png" alt="cerrar"></button>
+                <img src="../images/servicio-al-cliente.png" alt="servicio-al-cliente" class="w-[6rem] md:w-[12rem] my-0 | mx-auto | object-cover">
+                <h3 class="text-center | text-[2rem] mt-4 | md:text-[5rem] large-2:text-[6rem] | | text-[#012571] | font-bold">Contactanos</h3>
+                <p class="text-center | md:text-[2rem] | text-xl | text-white | mt-4 p-2">Es hora de que nos contactes para encargarnos de tu tesis, no esperes mas! El boton de whatsapp que te llevara directo a nuestro chat, donde te estamos esperando para asesorarte con el ultimo pasa hacia una vida profesional con ese título que tanto deseas! Te esperamos.</p>
+                <a href="" class="block | my-0 | mx-auto | w-1/4 p-2"><img src="../images/whatsapp.png" alt="whatsapp" class="md:w-1/2 | h-[5rem] | w-auto| modal__close | object-cover"></a>
+            </div>
+        </div>
     </main>
+    <!-- Seccion donde se muestra lo que ofrece la academia san ignacio, con botón hacia la seccion "Que ofrecemos" donde hay mas cards -->
     <section class="bg-white | text-black | font-bold | p-[2rem] | w-80% | border-t-2 | h-auto | flex | flex-col"> 
         <h2 class="text-[4.5rem] | text-center">Academia San ignacio te ofrece</h2>
         <div class="grid | large-2:grid-cols-3 | mt-8 | tablet-2:grid-cols-2 | md:grid-cols-1 | h-auto ">
@@ -82,5 +92,6 @@
         </div>
 
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>

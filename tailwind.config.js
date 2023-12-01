@@ -12,7 +12,11 @@ module.exports = {
       },
       screens : {
         'tablet-2' : '960px',
-        'large-2' : '1250px'
+        'large-2' : '1250px',
+        'small-2' : '300px'
+      },
+      colors : {
+        'principal': '#012571'
       }
     },
   },

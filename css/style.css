@@ -49,8 +49,8 @@ img{
 .header{
     background-image: url(../images/17332616_347506552311176_505941478111969280_a-PhotoRoom.png-PhotoRoom.png);
 }
-
 .btn {
+    display: block;
     width: 6.5em;
     height: 2.3em;
     margin: 0.5em;
@@ -61,7 +61,7 @@ img{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    position: relative;
+    /*position: relative;*/
     z-index: 1;
     overflow: hidden;
    }
@@ -88,3 +88,27 @@ img{
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
    }
+   .modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+}
+.modal__contacto{
+    margin: auto;
+    max-height: 70%;
+    background-color: white;
+}
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+}
+.modal__close::after{
+    content: none;
+}
