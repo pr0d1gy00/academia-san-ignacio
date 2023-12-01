@@ -9,6 +9,10 @@ module.exports = {
       },
       colors :{
         'pepito' : '#012571'
+      },
+      screens : {
+        'tablet-2' : '960px',
+        'large-2' : '1250px'
       }
     },
   },
