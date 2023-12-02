@@ -829,10 +829,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[5rem\] {
-  font-size: 5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -966,12 +962,12 @@ video {
     font-size: 2rem;
   }
 
-  .md\:text-\[5rem\] {
-    font-size: 5rem;
-  }
-
   .md\:text-\[3rem\] {
     font-size: 3rem;
+  }
+
+  .md\:text-\[5rem\] {
+    font-size: 5rem;
   }
 
   .md\:text-\[6rem\] {
