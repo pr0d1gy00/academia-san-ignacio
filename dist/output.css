@@ -816,6 +816,10 @@ video {
   font-size: 4.5rem;
 }
 
+.text-\[5rem\] {
+  font-size: 5rem;
+}
+
 .text-\[6rem\] {
   font-size: 6rem;
 }
