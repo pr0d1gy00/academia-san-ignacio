@@ -557,12 +557,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -593,6 +593,26 @@ video {
   height: auto;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-1\/6 {
+  height: 16.666667%;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-1\/4 {
+  height: 25%;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
 .w-80 {
   width: 20rem;
 }
@@ -621,6 +641,54 @@ video {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[5rem\] {
+  width: 5rem;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[1200px\] {
+  width: 1200px;
+}
+
+.w-\[90px\] {
+  width: 90px;
+}
+
+.w-\[100rem\] {
+  width: 100rem;
+}
+
+.w-\[45rem\] {
+  width: 45rem;
+}
+
 .max-w-\[6rem\] {
   max-width: 6rem;
 }
@@ -631,6 +699,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-center {
@@ -667,6 +739,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-t-xl {
@@ -729,6 +805,14 @@ video {
   padding: 2rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -784,6 +868,22 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[8rem\] {
+  font-size: 8rem;
+}
+
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
+.text-\[5rem\] {
+  font-size: 5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -805,10 +905,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .hover\:w-full:hover {
@@ -857,8 +953,32 @@ video {
     position: sticky;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:h-\[7rem\] {
     height: 7rem;
+  }
+
+  .md\:h-\[30rem\] {
+    height: 30rem;
+  }
+
+  .md\:h-1\/2 {
+    height: 50%;
+  }
+
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .md\:grid-cols-1 {
@@ -867,6 +987,22 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
+  .md\:text-\[8rem\] {
+    font-size: 8rem;
+  }
+
+  .md\:text-\[3rem\] {
+    font-size: 3rem;
+  }
+
+  .md\:text-\[6rem\] {
+    font-size: 6rem;
   }
 }
 
