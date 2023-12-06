@@ -112,3 +112,7 @@ img{
 .modal__close::after{
     content: none;
 }
+.btn__modal__contacto::after,
+.btn__conoce__mas::after{
+    content: none;
+}
