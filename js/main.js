@@ -10,3 +10,8 @@ openmodal.addEventListener('click', (e)=>{
 closemodal.addEventListener('click',()=>{
     modal.classList.remove('modal--show');
 });
+
+
+/* Consumimos API de palabras para el apartado de un buscador de palabras */
+
+const API_URL = 'https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf';
