@@ -116,3 +116,25 @@ img{
 .btn__conoce__mas::after{
     content: none;
 }
+.contact--animation{
+    animation :
+        contact 3s linear 1,
+        change-color 3s linear 1;
+}
+
+
+@keyframes contact{
+    to {transform:scale(1.1);
+    }
+}
+@keyframes change-color{
+    0%{
+        background-color: #012571;
+    }
+    50%{
+        background-color: #0ab2d6;
+    }
+    100%{
+        background-color: #0ab2d6;
+    }
+}
